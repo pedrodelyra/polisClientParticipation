@@ -8,7 +8,7 @@
  * in the same directory.
  */
 
- var Handlebones = require("handlebones");
+var Handlebones = require("handlebones");
 
 
 module.exports = Handlebones.CollectionView.extend({});

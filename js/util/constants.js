@@ -8,7 +8,7 @@
  * in the same directory.
  */
 
- module.exports = {
+module.exports = {
   CHARACTER_LIMIT: 140, // we can import tweets, so 140
   commentCarouselMinHeight: 135, // based on CHARACTER_LIMIT and font size
   REACTIONS: {
