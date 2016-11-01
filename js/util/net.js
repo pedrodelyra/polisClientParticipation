@@ -8,7 +8,7 @@
  * in the same directory.
  */
 
-var eb = require("../eventbus");
+var eb = require("../eventBus");
 var URLs = require("../util/url");
 var Utils = require("../util/utils");
 

@@ -530,7 +530,7 @@ gulp.task('common', [
   "index",
   "embedJs",
   ], function() {
-    showDesktopNotification("BUILD UPDATED", "woohoo");
+    if(require('os').platform() == 'darwin') showDesktopNotification("BUILD UPDATED", "woohoo");
 });
 
 gulp.task('dev', [
